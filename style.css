@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+  }
+
+  :root {
+    --forest-green: #5E6C5B;
+    --fresh-cream: #F4EFE6;
+    --cloud-white: #FEFCF6;
+    --sky-blue: #D6E0E2;
+    --storm-cloud: #686867;
+    --midnight: #162A2C;
+  }
+  
+
+  body {
+    background: linear-gradient(135deg, #d7d2cc, #304352);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container {
+    background-color: #4b014c;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+    color: white;
+    text-align: center;
+  }
+
+  h1 {
+    margin-bottom: 24px;
+    font-size: 24px;
+    font-weight: 1000px;
+
+  }
+
+  input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+
+  button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 16px;
+    background-color: #ff6ec4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #ee65b7;
+  }
+
+  #resultado {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
